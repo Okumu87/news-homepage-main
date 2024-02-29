@@ -1,0 +1,120 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  min-height: 100vh;
+  background-color: #fffdfa; }
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 3rem; }
+  #header nav ul {
+    display: flex;
+    list-style: none; }
+    #header nav ul a {
+      padding-left: 2rem;
+      color: #5d5f79; }
+    #header nav ul a:hover {
+      color: #f15e50; }
+
+#main-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+  #main-grid .info-img img {
+    width: 70rem;
+    height: 25rem; }
+  #main-grid .info-text {
+    display: flex;
+    gap: 4rem;
+    margin-top: 1.5rem; }
+    #main-grid .info-text h1 {
+      font-size: 2.5rem;
+      font-weight: 800; }
+    #main-grid .info-text .info-para p {
+      line-height: 1.5;
+      color: #5d5f79;
+      padding-bottom: 2.5rem; }
+    #main-grid .info-text .btn {
+      text-transform: uppercase;
+      font-size: 1rem;
+      text-align: center;
+      display: inline-block;
+      background-color: #f15e50;
+      color: #fff;
+      padding: 0.9rem;
+      width: 12rem; }
+    #main-grid .info-text .btn:hover {
+      background-color: #00001a; }
+  #main-grid .side-info {
+    background-color: #00001a;
+    color: #fff;
+    width: fit-content;
+    height: 30rem;
+    padding: 1.5rem 1rem; }
+    #main-grid .side-info h2 {
+      color: #e9ab53; }
+    #main-grid .side-info p {
+      font-size: small;
+      font-weight: 100;
+      padding-bottom: 1.5rem; }
+    #main-grid .side-info .info-box h3 {
+      font-weight: 600;
+      font-size: medium;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+    #main-grid .side-info .info-box {
+      border-bottom: 0.4px solid #fff; }
+    #main-grid .side-info .info-box:last-child {
+      border-bottom: none; }
+
+.flex-items,
+.flex {
+  display: flex; }
+
+.flex-items img {
+  margin-right: 1rem;
+  width: 7rem;
+  height: 7rem; }
+
+.flex h4 {
+  font-size: 1.5rem;
+  color: #c5c6ce;
+  margin-bottom: 0.5rem; }
+
+.flex-title {
+  font-weight: 700;
+  padding-bottom: 0.5rem; }
+
+.flex-title:hover {
+  cursor: pointer;
+  color: #f15e50; }
+
+.flex-para {
+  line-height: 1.5;
+  color: #5d5f79; }
